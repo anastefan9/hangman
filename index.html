@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Spanzuratoarea</title>
+	</head>
+	<body>
+		<h1 style="color: rgb(140, 140, 140); text-align: center; font-size: 60px;">Proiect 4</h1>
+		<h2 style="color: rgb(0, 0, 0); text-align: center; font-size: 50px">Spanzuratoarea</h2>
+
+		<div style="text-align: center; font-size: 30px;">
+			<div id="box_word">
+				<label for="word">Scrie un cuvant:</label>
+				<input type="text" id="word">
+				<button type="button" id="submit_word_button" onclick="submitWordFunction()">Submit</button>
+			</div>
+			<div id="box_array" style="display: none;">
+				<p>Super cuvant! Incearca sa gasesti toate literele.</p>
+				<p id="letter_array"></p>
+			</div>
+			<div id="box_letter" style="display: none;">
+				<label for="letter">Scrie o litera:</label>
+				<input type="text" id="letter">
+				<button type="button" id="submit_letter_button" onclick="letterFunction()">Submit</button>
+			</div>
+			<div id="box_message">
+				<p id="message"></p>
+			</div>
+			<div id="box_whole_word" style="display: none;">
+				<label for="whole_word">Scrie tot cuvantul:</label>
+				<input type="text" id="whole_word">
+				<button type="button" id="submit_whole_word" onclick="wholeWordFunction()">Submit</button>
+			</div>
+		</div>
+		<script src='script.js'></script>
+	</body>
+</html>
