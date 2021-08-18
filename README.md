@@ -1,0 +1,1 @@
+Hello! This is my hangman project. Try to find the word as soon as possible!
