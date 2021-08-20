@@ -12,25 +12,16 @@
 			<div id="box_word">
 				<label for="word">Scrie un cuvant:</label>
 				<input type="text" id="word">
-				<button type="button" id="submit_word_button" onclick="submitWordFunction()">Submit</button>
+				<button type="button" id="submit_word_button" onclick="submitWord()">Submit</button>
 			</div>
-			<div id="box_array" style="display: none;">
+			<div id="container" style="display: none;">
 				<p>Super cuvant! Incearca sa gasesti toate literele.</p>
 				<p id="letter_array"></p>
+				<label for="letterWord">Scrie o litera sau tot cuvantul:</label>
+				<input type="text" id="letterWord">
+				<button type="button" id="submit_button" onclick="submitInput()">Submit</button>
 			</div>
-			<div id="box_letter" style="display: none;">
-				<label for="letter">Scrie o litera:</label>
-				<input type="text" id="letter">
-				<button type="button" id="submit_letter_button" onclick="letterFunction()">Submit</button>
-			</div>
-			<div id="box_message">
-				<p id="message"></p>
-			</div>
-			<div id="box_whole_word" style="display: none;">
-				<label for="whole_word">Scrie tot cuvantul:</label>
-				<input type="text" id="whole_word">
-				<button type="button" id="submit_whole_word" onclick="wholeWordFunction()">Submit</button>
-			</div>
+			<p id="message"></p>
 		</div>
 		<script src='script.js'></script>
 	</body>
