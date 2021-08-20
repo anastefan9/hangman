@@ -16,7 +16,7 @@ function submitWord() {
 	container.style.display = "block";
 }
 function submitInput() {
-	var input = document.getElementById("letterWord").value.toUpperCase();
+	var input = document.getElementById("input").value.toUpperCase();
 	if (input.length == 1) {
 		var index = word.indexOf(input);
 		if (index == -1) {
